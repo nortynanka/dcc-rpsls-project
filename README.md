@@ -14,7 +14,8 @@
     Step 8: Computer chooses randomly from array of options
     Step 9: Winner is determined and they are given a point
     Step 10: Rounds continue until someone has won 3 rounds
-    Step 11: If 8 rounds have passed and no one has won 3 times, a tiebreaker round ensues between those with matching highest scores and the winner of the round is       winner of the game
+    Step 11: If 8 rounds have passed and no one has won 3 times, a tiebreaker round ensues between
+    those with matching highest scores and the winner of the round is winner of the game
     Step 12: Announce the winner and quick congratulatory message
     Step 13: Option to start game over with same players/options or start over completely
 
