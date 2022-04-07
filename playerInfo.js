@@ -1,15 +1,33 @@
 class PlayerInfo {
     constructor() {
-        this.playerName = "";
+        this.playerName = playerName;
         this.score = "";
-        this.roundChoice = "";
-        this.gestures = "";
+        this.roundChoice = roundChoice;
+        this.gestures = ["rock", "paper", "scissors", "lizard", "Spock"];
     }
 
-    // displayName()
-    // setName()
-    // chooseGesture()
+    // constructor PlayerInfo end
 
-}
+    setName(playerName) {
+        let playerName = prompt("Enter player name:");
+        return playerName;
+    }
+
+    // method setName end
+
+    displayName() {
+        console.log(playerName);
+    } 
+
+    // method displayName end
+
+    chooseGesture(playerName) {
+        let roundChoice = prompt(`${playerName}, choose your move: ${gestures}`);
+        return roundChoice;
+    }
+    
+    // method chooseGesture end
+
+} // class PlayerInfo end
 
 module.exports = PlayerInfo;

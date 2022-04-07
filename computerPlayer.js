@@ -9,4 +9,6 @@ class ComputerPlayer extends PlayerInfo {
 
 }
 
+// class ComputerPlayer end
+
 module.exports = ComputerPlayer;

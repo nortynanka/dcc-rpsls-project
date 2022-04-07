@@ -1,12 +1,16 @@
 const PlayerInfo = require('./playerInfo');
 
 class HumanPlayer extends PlayerInfo {
-    constructor() {
+    constructor() {}
 
+    chooseGesture(playerName) {
+        let roundChoice = prompt(`${playerName}, make your move. (Choose from the following: ${gestures}.)`);
     }
 
-    //chooseGesture()
+    // method chooseGesture end
 
 }
+
+// class HumanPlayer end
 
 module.exports = HumanPlayer;
