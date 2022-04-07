@@ -40,3 +40,9 @@
                     If winner, display winner’s name
     Step 6: Give option to replay the game (restart from step 3 or 5)
 
+## RPSLS Rules
+
+    1. Rock beats scissors
+    2. Scissors beats paper
+    3. Paper beats rock
+    4. 
