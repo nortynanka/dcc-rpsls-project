@@ -1,11 +1,19 @@
+"use strict"
+
 const PlayerInfo = require('./playerInfo');
 
 class ComputerPlayer extends PlayerInfo {
     constructor() {
-
+        this.options = gestures;
     }
 
-    //chooseGesture()
+    // constructor ComputerPLayer end
+
+    makeMove(options) {
+        return Math.floor(Math.random[0] * options.length);
+    }
+
+    // method chooseGesture end
 
 }
 

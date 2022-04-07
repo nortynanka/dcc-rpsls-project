@@ -1,16 +1,18 @@
+"use strict"
+
 class PlayerInfo {
     constructor() {
-        this.playerName = playerName;
-        this.score = "";
+        this.playerName = playerOneOrTwo;
+        this.playerScore = "";
         this.roundChoice = roundChoice;
         this.gestures = ["rock", "paper", "scissors", "lizard", "Spock"];
     }
 
     // constructor PlayerInfo end
 
-    setName(playerName) {
-        let playerName = prompt("Enter player name:");
-        return playerName;
+    setName(playerOneOrTwo) {
+        let playerOneOrTwo = prompt("Enter player name:");
+        return playerOneOrTwo;
     }
 
     // method setName end
@@ -21,12 +23,11 @@ class PlayerInfo {
 
     // method displayName end
 
-    chooseGesture(playerName) {
-        let roundChoice = prompt(`${playerName}, choose your move: ${gestures}`);
-        return roundChoice;
+    makeMove(playerName) {
+        let roundChoice = prompt(`${playerName}, make your move. (Choose from the following: ${gestures}.)`);
     }
-    
-    // method chooseGesture end
+
+    // method makeMove end
 
 } // class PlayerInfo end
 

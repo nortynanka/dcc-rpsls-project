@@ -42,7 +42,13 @@
 
 ## RPSLS Rules
 
-    1. Rock beats scissors
-    2. Scissors beats paper
-    3. Paper beats rock
-    4. 
+    1. Rock crushes scissors
+    2. Scissors cuts paper
+    3. Paper covers rock
+    4. Rock crushes lizard
+    5. Lizard poisons Spock
+    6. Spock smashes scissors
+    7. Scissors decapitates lizard
+    8. Lizard eats paper
+    9. Paper disproves Spock
+    10. Spock vaporizes rock
