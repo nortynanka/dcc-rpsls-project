@@ -1,8 +1,13 @@
 {
   "name": "rpsls-project",
   "version": "1.0.0",
-  "description": "A Javascript OOP project created during devCodeCamp that also implements the use of Node.js",
+  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "ansi-regex": "^4.1.1",
+    "prompt-sync": "^4.2.0",
+    "strip-ansi": "^5.2.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "index.js"
@@ -12,13 +17,10 @@
     "url": "git+https://github.com/dis-guisekaylee/rpsls-project.git"
   },
   "keywords": [],
-  "author": "Kaylee Guise",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dis-guisekaylee/rpsls-project/issues"
   },
-  "homepage": "https://github.com/dis-guisekaylee/rpsls-project#readme",
-  "dependencies": {
-    "prompt-sync": "^4.2.0"
-  }
+  "homepage": "https://github.com/dis-guisekaylee/rpsls-project#readme"
 }

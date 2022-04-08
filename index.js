@@ -1,5 +1,6 @@
 "use strict"
 
+const prompt = require("prompt-sync");
 const HumanPlayer = require('./humanPlayer');
 const ComputerPlayer = require('./computerPlayer');
 const PlayerInfo = require('./playerInfo');
@@ -7,13 +8,26 @@ const BaseGame = require('./baseGame');
 
 displayWelcome();
 
-determineNumberOfPlayers();
+let numberOfPlayers = determineNumberOfPlayers();
+console.log(numberOfPlayers);
+
+let playerOne = new PlayerInfo();
+  if(numberOfPlayers === "two") {
+    let playerTwo = new PlayerInfo();
+  }
+
+setPlayerName(playerOne);
+setPlayerName(playerTwo);
 
 displayRules(gameRules);
 
-function autoValid(input) {
-    return true; // default validation only
-  }
+runRounds();
+
+compareGestures();
+
+// function autoValid(input) {
+//     return true;
+//   }
 
 
 

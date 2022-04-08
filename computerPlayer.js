@@ -4,19 +4,24 @@ const PlayerInfo = require('./playerInfo');
 
 class ComputerPlayer extends PlayerInfo {
     constructor() {
-        this.options = gestures;
+        this.playerName = "Player 2";
     }
-
-    // constructor ComputerPLayer end
 
     makeMove(options) {
-        return Math.floor(Math.random[0] * options.length);
+        console.log("Player 2 is making their move...");
+        let options = Math.floor(Math.random[0] * options.length);
+        console.log(`Player 2 has picked ${options}!`);
     }
 
-    // method chooseGesture end
+    computerMakeMove(playerOneOrTwo) {
+        const roundChoice = prompt(`${playerOneOrTwo}, make your move. (Choose from the following: ${gestures}.)`);
+        return roundChoice;
+    }
+
+
 
 }
 
-// class ComputerPlayer end
+
 
 module.exports = ComputerPlayer;
